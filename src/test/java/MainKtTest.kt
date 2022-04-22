@@ -122,7 +122,7 @@ class MainKtTest {
     fun getLastMonthSum_default() {
         //arrange
         val input = ""
-        val expectedValue = 5550U
+        val expectedValue = 0U
 
         //act
         val actualValue = getLastMonthSum(input)
